@@ -1,0 +1,26 @@
+<information>
+  <information sr="1">
+     <sl>SL.NO</sl>
+     <sl_no>23</sl_no>
+     <first_name>John</first_name>
+     <last_name>Carter</last_name>
+     <admission>ADMISSION DATE</admission>
+     <date>25/12/2025</date>
+  </information>
+  <information sr="2">
+     <sl>SL.NO</sl>
+     <sl_no>29</sl_no>
+     <first_name>Bob</first_name>
+     <last_name>Marshal</last_name>
+     <admission>ADMISSION DATE</admission>
+     <date>13/01/1999</date>
+  </information>
+  <information sr="3">
+     <sl>SL.NO</sl>
+     <sl_no>35</sl_no>
+     <first_name>Clark</first_name>
+     <last_name>Kent</last_name>
+     <admission>ADMISSION DATE</admission>
+     <date>17/06/2005</date>
+  </information>
+</information>
