@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Combined Form with Numbered Bullets</title>
+  </head>
+  <body>
+    <form action="">
+      <ol>
+        <li>
+          <label for="name">Name</label>
+          <div>
+            <input type="text" name="myname" />
+          </div>
+        </li>
+
+        <li>
+          <label>Email:</label>
+          <div>
+            <input type="email" name="myemail" />
+          </div>
+        </li>
+
+        <li>
+          <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="gender" value="male" /> Male
+            <input type="radio" name="gender" value="female" /> Female
+            <input type="radio" name="gender" value="other" /> Other
+          </fieldset>
+        </li>
+
+        <li>
+          <fieldset>
+            <legend>Date of Birth</legend>
+            <input
+              type="text"
+              name="day"
+              placeholder="dd"
+              size="2"
+              maxlength="2"
+            />
+            /
+            <input
+              type="text"
+              name="month"
+              placeholder="mm"
+              size="2"
+              maxlength="2"
+            />
+            /
+            <input
+              type="text"
+              name="year"
+              placeholder="yyyy"
+              size="4"
+              maxlength="4"
+            />
+            <i>(dd/mm/yyyy)</i>
+          </fieldset>
+        </li>
+
+        <li>
+          <fieldset>
+            <legend>Degree</legend>
+            <input type="checkbox" name="degree" value="SSC" /> SSC
+            <input type="checkbox" name="degree" value="HSC" /> HSC
+            <input type="checkbox" name="degree" value="BSc" /> BSc
+            <input type="checkbox" name="degree" value="MSc" /> MSc
+          </fieldset>
+        </li>
+
+        <li>
+          <label for="bloodGroup">Blood Group</label>
+          <div>
+            <select name="bloodGroup" id="bloodGroup">
+              <option value="A+">A+</option>
+              <option value="A-">A-</option>
+              <option value="B+">B+</option>
+              <option value="B-">B-</option>
+              <option value="AB+">AB+</option>
+              <option value="AB-">AB-</option>
+              <option value="O+">O+</option>
+              <option value="O-">O-</option>
+            </select>
+          </div>
+        </li>
+
+        <li>
+          <fieldset>
+            <legend>Profile Picture</legend>
+            User ID: <input type="text" name="userId" /><br />
+            Picture: <input type="file" name="profilePicture" />
+          </fieldset>
+        </li>
+
+        <li>
+          <table border="1" cellspacing="0" width="400px" height="150px">
+            <tr>
+              <th colspan="3">PERSON Profile</th>
+            </tr>
+            <tr>
+              <td>Name</td>
+              <td><input type="text" name="tableName" /></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td><input type="email" name="tableEmail" /></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Gender</td>
+              <td>
+                <input type="radio" name="tableGender" value="male" /> Male
+                <input type="radio" name="tableGender" value="female" /> Female
+                <input type="radio" name="tableGender" value="other" /> Other
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Date of Birth</td>
+              <td>
+                <input type="text" name="tableDay" size="1" /> /
+                <input type="text" name="tableMonth" size="1" /> /
+                <input type="text" name="tableYear" size="1" />
+                <i>(dd/mm/yyyy)</i>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Blood Group</td>
+              <td>
+                <select name="tableBloodGroup">
+                  <option value="A+">A+</option>
+                  <option value="B+">B+</option>
+                  <option value="AB+">AB+</option>
+                  <option value="O+">O+</option>
+                  <option value="O-">O-</option>
+                  <option value="A-">A-</option>
+                  <option value="B-">B-</option>
+                  <option value="AB-">AB-</option>
+                </select>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Degree</td>
+              <td>
+                <input type="checkbox" name="tableDegree" value="SSC" /> SSC
+                <input type="checkbox" name="tableDegree" value="HSC" /> HSC
+                <input type="checkbox" name="tableDegree" value="BSc" /> BSc
+                <input type="checkbox" name="tableDegree" value="MSc" /> MSc
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Photo</td>
+              <td colspan="2"><input type="file" name="tablePhoto" /></td>
+            </tr>
+          </table>
+        </li>
+      </ol>
+
+      <div style="margin-top: 10px; text-align: center">
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+      </div>
+    </form>
+  </body>
+</html>
